@@ -1,0 +1,93 @@
+.jumbotron {
+  padding: 0 3rem 6rem 3rem;
+}
+
+.login-card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  height: 100vh;
+}
+
+.login-container .page {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container .header {
+  height: 111px;
+}
+
+.login-container .page-container {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.alert,
+.list-group-item {
+  background-color: #eff8fa;
+}
+
+.alert a {
+  color: 1976D2;
+}
+
+.mr-2 {
+  margin-right: 0.5rem !important;
+}
+
+.ml-4 {
+  margin-right: 2rem !important;
+}
+
+.login-page-backsplash {
+  width: 100vw;
+  height: 60vh;
+  background: linear-gradient(to right, #ebebeb, #9e9e9e);
+  border-bottom-left-radius: 55% 71%;
+  border-bottom-right-radius: 54% 71%;
+  overflow: hidden;
+}
+
+.login {
+  color: darkslategray;
+}
+
+.login-button {
+  // width: 13rem;
+  padding: 8px 20px;
+  // padding: 8px, 48px, 8px, 48px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: #0056b3;
+  }
+}
+
+.error-message {
+  text-align: start;
+  font-size: 12px;
+  color: red;
+}
+
+@media only screen and (max-width: 900px) {
+  .jumbotron {
+    padding: 0 !important;
+  }
+
+  .login {
+    .btn {
+      width: 100% !important;
+    }
+  }
+}
